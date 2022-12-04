@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -320,7 +320,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &973081987
 PrefabInstance:
@@ -467,6 +467,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7361821612609226867, guid: 247e7a694e239e04fbbfb5ffed46fe36,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e95db9543fd24ebb897fe595ef20e69, type: 2}
+    - target: {fileID: 7361821612857772014, guid: 247e7a694e239e04fbbfb5ffed46fe36,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b03f5ca01057a4eba88ba9f0f6dcaed1, type: 2}
+    - target: {fileID: 7361821612945958509, guid: 247e7a694e239e04fbbfb5ffed46fe36,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68af6ff7521b74ae9b8a7ec3769e0de8, type: 2}
+    - target: {fileID: 7361821613318477010, guid: 247e7a694e239e04fbbfb5ffed46fe36,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 92fb26436cc244a4cb0b7c67cd6b2d89, type: 2}
+    - target: {fileID: 7361821613499000613, guid: 247e7a694e239e04fbbfb5ffed46fe36,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 43a2172ed0e1e4872a78ef57cd0fcb42, type: 2}
     - target: {fileID: 7361821613499000615, guid: 247e7a694e239e04fbbfb5ffed46fe36,
         type: 3}
       propertyPath: m_Name
@@ -527,6 +552,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7361821614088825658, guid: 247e7a694e239e04fbbfb5ffed46fe36,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8154540e3e51f4e488d7baf20f70cd49, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 247e7a694e239e04fbbfb5ffed46fe36, type: 3}
 --- !u!1001 &1130751030
