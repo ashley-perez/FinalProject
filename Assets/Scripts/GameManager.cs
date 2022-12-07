@@ -20,9 +20,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (lights[0].enabled && lights[1].enabled && lights[2].enabled && lights[3].enabled && lights[4].enabled)
+        if (plateState && lights[0].enabled && lights[1].enabled && lights[2].enabled && lights[3].enabled && lights[4].enabled)
         {
             plateState = false;
+            cluesFound += 1;
         }
     }
 }

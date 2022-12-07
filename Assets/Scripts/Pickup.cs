@@ -20,13 +20,10 @@ public class Pickup : MonoBehaviour
     {
         
         if (Input.GetKeyDown(KeyCode.E)) {
-            Debug.Log("check1");
             // if the object has not been picked up yet: 
             if (heldObj == null) {
-                Debug.Log("check2");
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange)) {
-                    Debug.Log("check3", hit.transform.gameObject);
                     PickupObject(hit.transform.gameObject);
                 }
 
@@ -50,9 +47,7 @@ public class Pickup : MonoBehaviour
 
     // when picking up the object
     void PickupObject(GameObject pickObj) {
-        Debug.Log("check4");
         if(pickObj.GetComponent<Rigidbody>()) {
-            Debug.Log("check5");
             Rigidbody objRig = pickObj.GetComponent<Rigidbody>();
             objRig.useGravity = false;
             objRig.drag = 10;
