@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public bool plateState = true;
 
+    public int cluesFound = 0;
+
     void Start()
     {
         foreach(Light light in lights)
