@@ -28329,7 +28329,7 @@ MonoBehaviour:
   endDoor: {fileID: 680915378}
   plateState: 1
   cluesFound: 0
-  maxClues: 4
+  maxClues: 5
   gameState: Start
 --- !u!4 &1485308430
 Transform:
