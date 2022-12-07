@@ -21,7 +21,7 @@ public class ArmCollide : MonoBehaviour
         if (col.gameObject.name == "mannequin_body") {
             Debug.Log("collison");
             gameManager.cluesFound += 1;
-            Destroy(col.gameObject)
+            Destroy(col.gameObject);
             // Debug.Log(gameManager.cluesFound);
 
         } 
