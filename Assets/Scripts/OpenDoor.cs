@@ -11,6 +11,7 @@ public class OpenDoor : MonoBehaviour
 
     public void OnTriggerEnter (Collider other)
     {
+        Debug.Log("here");
         if (state || other.gameObject.layer != LayerMask.NameToLayer(layer)) return;
         door.transform.position += new Vector3(0, 3, 0);
         state = true;

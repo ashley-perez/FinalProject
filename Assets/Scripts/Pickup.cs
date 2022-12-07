@@ -7,8 +7,9 @@ public class Pickup : MonoBehaviour
     public float pickUpRange=5;
     public float moveForce = 250;
     public Transform holdParent;
+    public GameObject heldObj;
+    public GameManager gameManager;
 
-    private GameObject heldObj;
     // Start is called before the first frame update
     // void Start()
     // {
@@ -48,6 +49,12 @@ public class Pickup : MonoBehaviour
     // when picking up the object
     void PickupObject(GameObject pickObj) {
         if(pickObj.GetComponent<Rigidbody>()) {
+            if (pickObj.layer == LayerMask.NameToLayer("DeleteObj"))
+            {
+                Destroy(pickObj);
+                gameManager.cluesFound += 1;
+                return;
+            }
             Rigidbody objRig = pickObj.GetComponent<Rigidbody>();
             objRig.useGravity = false;
             objRig.drag = 10;
