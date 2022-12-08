@@ -7,7 +7,7 @@ Particle system: all skull particle light will turn on when the player solved al
 5 unique objects: camera room, mannequin room, haunted room, hell door, skull particle light.
 Controllable character: Crystal cylinder.
 Camera: First person view.
-Part 1: press F to turn on flashlight.
+Part 1: arrow for movement. press F to turn on/off flashlight. press E to pickup object.
 Part 2: finding clues trigger an in-game event.
 1. Step on the gray square on the floor (Camera room).
 2. Put the chair on the gray square (First hallway).
